@@ -27,7 +27,7 @@ const updateDatabase = async () => {
 
   const n = filteredData.length;
 
-  for (let i = 0; i < null; i++) {
+  for (let i = 0; i < n; i++) {
     const repository = new Repository({
       id: filteredData[i].id,
       name: filteredData[i].name,
