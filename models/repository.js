@@ -16,12 +16,12 @@ const repositorySchema = new mongoose.Schema({
   description: {
     type: String,
     //required: true,
-    default: "Aprašymas",
+    default: "description",
   },
   language: {
     type: String,
     //required: true,
-    default: "Kalba",
+    default: "language",
   },
 });
 
